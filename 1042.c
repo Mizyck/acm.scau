@@ -5,7 +5,7 @@ int main()
 	int day = 0, give = 1;
 	scanf("%d", &num);
 	num = num * 100;
-	while (s1 < s2)
+	while (s1 <= s2 && day <= 30)
 	{
 		s1 += give;
 		s2 += num;
