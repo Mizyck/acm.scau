@@ -9,19 +9,23 @@ int main()
 	{
 	case '+':
 		c = a + b;
+        printf("result=%.2f", c);
 		break;
 	case '-':
 		c = a - b;
+        printf("result=%.2f", c);
 		break;
 	case '*':
 		c = a * b;
+        printf("result=%.2f", c);
 		break;
 	case '/':
 		c = a / b;
+        printf("result=%.2f", c);
 		break;
 	default:
 		printf("error");
 		break;
 	}
-	printf("result=%.2f", c);
+	
 }
