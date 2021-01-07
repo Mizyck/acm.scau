@@ -1,6 +1,6 @@
 #include <stdio.h>
-float high(int n);
-float tan(int n);
+float high(int);
+float tan(int);
 int main()
 {
    float h = 0, t = 0;
