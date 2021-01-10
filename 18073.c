@@ -20,7 +20,7 @@ int main()
 double cal(float d, float p, float r)
 {
     double m;
-    if (0 < p - d * r && 1 != 1 + r)
+    if (0 < p - d * r || 1 != 1 + r)
     {
         m = log(p / (p - d * r)) / log(1 + r);
         return m;
